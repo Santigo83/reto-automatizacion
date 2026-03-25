@@ -5,10 +5,8 @@ import org.openqa.selenium.WebDriver;
 
 public class RegisterPage extends BasePage {
 
-    // Prioridad aplicada: class para el enlace porque no tiene id ni name.
     private static final By REGISTER_LINK = By.className("ico-register");
 
-    // Prioridad aplicada: id para los campos del formulario y boton de registro.
     private static final By GENDER_MALE_RADIO_BUTTON = By.id("gender-male");
     private static final By GENDER_FEMALE_RADIO_BUTTON = By.id("gender-female");
     private static final By FIRST_NAME_INPUT = By.id("FirstName");
